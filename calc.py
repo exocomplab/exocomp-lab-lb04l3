@@ -12,3 +12,6 @@ def l2_plus_two(value):
 
 def l3_delivery_plus_three(value):
     return value + 3
+
+def l3_checks_plus_four(value):
+    return value + 4
