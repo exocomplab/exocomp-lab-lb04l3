@@ -1,4 +1,4 @@
-from calc import add, triple, negate, l2_plus_two, l3_delivery_plus_three, l3_checks_plus_four, l3_local_plus_five
+from calc import add, triple, negate, l2_plus_two, l3_delivery_plus_three, l3_checks_plus_four, l3_local_plus_five, w6_plus_six
 
 
 def test_add():
@@ -39,3 +39,9 @@ def test_l3_local_plus_five():
     assert l3_local_plus_five(0) == 5
     assert l3_local_plus_five(3) == 8
     assert l3_local_plus_five(-5) == 0
+
+
+def test_w6_plus_six():
+    assert w6_plus_six(0) == 6
+    assert w6_plus_six(-1) == 5
+    assert w6_plus_six(3) == 9
