@@ -15,3 +15,6 @@ def l3_delivery_plus_three(value):
 
 def l3_checks_plus_four(value):
     return value + 4
+
+def l3_local_plus_five(value):
+    return value + 5
