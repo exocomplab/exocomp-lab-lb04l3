@@ -6,3 +6,6 @@ def triple(value):
 
 def negate(value):
     return -value
+
+def l2_plus_two(value):
+    return value + 2
