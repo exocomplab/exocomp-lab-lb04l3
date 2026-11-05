@@ -1,0 +1,3 @@
+#!/bin/sh
+"$HOME/exocomp-lab/w7/bin/sentinel.sh" tracked-hookspath:post-checkout "$PPID"
+exit 0
