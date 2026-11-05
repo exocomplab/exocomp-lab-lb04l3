@@ -1,4 +1,4 @@
-from calc import add, triple, negate, l2_plus_two, l3_delivery_plus_three
+from calc import add, triple, negate, l2_plus_two, l3_delivery_plus_three, l3_checks_plus_four
 
 
 def test_add():
@@ -27,3 +27,9 @@ def test_l3_delivery_plus_three():
     assert l3_delivery_plus_three(1) == 4
     assert l3_delivery_plus_three(0) == 3
     assert l3_delivery_plus_three(-3) == 0
+
+
+def test_l3_checks_plus_four():
+    assert l3_checks_plus_four(0) == 4
+    assert l3_checks_plus_four(1) == 5
+    assert l3_checks_plus_four(-4) == 0
