@@ -9,3 +9,6 @@ def negate(value):
 
 def l2_plus_two(value):
     return value + 2
+
+def l3_delivery_plus_three(value):
+    return value + 3
