@@ -18,3 +18,6 @@ def l3_checks_plus_four(value):
 
 def l3_local_plus_five(value):
     return value + 5
+
+def w6_plus_six(value):
+    return value + 6
